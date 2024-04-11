@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  min-height: 100vh;
+  background-image: url("portfolioassests/background_home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+header ul li a:hover {
+  background: #fff;
+  color: #2b1055;
+}
+
+#homepage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  min-height: 85vh;
+}
+
+.image_main {
+  border-radius: 50%;
+  min-height: 25vh;
+  width: 25vh;
+  border: 1px solid black;
+  margin-top: 5%;
+}
+
+.hello_main {
+  font-size: 55px;
+  margin: 20px;
+}
+
+.hello_option {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#contactpage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  min-height: 100vh;
+  background-image: url("portfolioassests/contact_portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.widthdiv {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.contactcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactcontent h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.req {
+  color: red;
+}
+
+.mainform {
+  color: rgb(151, 139, 139);
+  width: 100%;
+}
+
+.contactform {
+  padding: 10px;
+  margin: 10px;
+  width: 130%;
+  background-color: rgb(65, 60, 60);
+  color: rgb(151, 139, 139);
+  border-radius: 5px;
+  border: none;
+}
+
+.contactforml {
+  padding: 10px;
+  margin: 10px;
+  width: 130%;
+  min-height: 120px;
+  background-color: rgb(65, 60, 60);
+  color: rgb(151, 139, 139);
+  border-radius: 5px;
+  border: none;
+}
+
+.contactforms {
+  background-color: white;
+  padding: 10px;
+  width: 130%;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: rgb(151, 139, 139);
+}
+
+footer {
+  background-color: black;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.718);
+}
+
+.email a,
+.insta a,
+.linkedin a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.718);
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.email {
+  border: 1px solid white;
+}
+
+.insta {
+  border: 1px solid rgb(227, 21, 96);
+}
+
+.linkedin {
+  border: 1px solid rgb(9, 130, 236);
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+}
+
+#aboutpage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  min-height: 100vh;
+  background-image: url("portfolioassests/about_portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutcontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.aboutcontent h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.aboutwidth {
+  width: 50%;
+}
+
+.inner {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.851);
+}
+
+.about_option {
+  width: 60%;
+  font-size: 20px;
+  color: rgba(245, 245, 245, 0.851);
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+}
+
+b {
+  color: white;
+}
+
+.aboutimage {
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+#educationpage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.educationcontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.educationcontent h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.education_option {
+  width: 60%;
+  font-size: 20px;
+  color: rgba(245, 245, 245, 0.851);
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+}
+
+.educationwidth {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.educationimage {
+  margin-top: 10%;
+}
+
+#skillspage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  min-height: 100vh;
+  background-image: url("portfolioassests/contact_portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skillscontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+.skillscontent h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 1%;
+}
+
+.skillswidth {
+  width: 50%;
+}
+
+.skillsimage {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.skill1 {
+  border: 1px solid white;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill2 {
+  border: 1px solid rgb(227, 21, 96);
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill3 {
+  border: 1px solid rgb(9, 130, 236);
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill4 {
+  border: 1px solid yellow;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill5 {
+  border: 1px solid rgb(195, 255, 0);
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill6 {
+  border: 1px solid rgb(255, 0, 0);
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.skill7 {
+  border: 1px solid rgb(3, 204, 239);
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.social1 {
+  display: flex;
+  justify-content: space-between;
+  width: 200%;
+}
+
+#projectspage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  min-height: 100vh;
+  background-image: url("portfolioassests/about_portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectscontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 50%;
+}
+
+.projectscontent h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.projects_option {
+  width: 60%;
+  font-size: 22px;
+  color: rgba(245, 245, 245, 0.851);
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  margin: 20px;
+}
+
+.projectswidth {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.projectsimage {
+  margin-top: 10%;
+}
+
+.small {
+  font-size: 18px;
+}

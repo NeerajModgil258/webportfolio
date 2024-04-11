@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <a class="logo">Neeraj</a>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="scrollhome()">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollabout()">About</a></li>
+                <li><a href="javascript:void(0)" onclick="scrolleducation()">Education</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollskills()">Skills</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollprojects()">Projects</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollcontact()">Contact</a></li>
+            </ul>
+        </header>
+        <section id="homepage">
+            <image class="image_main" src="portfolioassests/portfolio_web.jpg"></image>
+            <h1 class="hello_main">Hi, I'm Neeraj Modgil</h1>
+            <h2 class="hello_option">I'm a Developer</h2>
+        </section>
+    </div>
+    <section id="aboutpage">
+        <div class="aboutwidth">
+            <img src="portfolioassests/aboutside.png" class="aboutimage">
+        </div>
+        <div class="aboutcontent">
+            <h1 class="about_main">About Me</h1><br><br><br>
+            <p class="about_option">My name is <b>Neeraj Modgil</b>. I am a Btech CSE student at VIT University,
+                Vellore. I am a
+                developer with knowledge of <b>Python, C, C++, Java, Web Dev and App Dev</b>. <br><br>
+                I am a keen learner and have a passion towards learning new things to improve my skills. I like to try
+                out new things and make them work. I have an interest in software development and artificial
+                intelligence.
+                I've done many assignments and projects like discord bot and xylophone app. In my leisure time I listen
+                to
+                music and play mobile games.<br><br>
+                I am hardworking and dedicated. If you want a team member for your project, just
+                drop me a message from the contact page. <br><br>
+                <a class="inner" href="javascript:void(0)" onclick="scrollcontact()""><b>Get in touch</b></a> to know more!
+            </p>
+        </div>
+    </section>
+    <section id="educationpage">
+                    <div class="educationcontent">
+                        <h1 class="education_main">Education</h1><br><br><br>
+                        <p class="education_option">I am a currently pursuing <b>Bachelors of Technology</b> degree in
+                            <b>Computer
+                                Science and Engineering</b> from <b>Vellore Insititue of Technoloy</b>, Vellore Campus.
+                            I am
+                            expecting to complete it in 2026. My CGPA till date is <b>9.13</b>. <br><br>
+                            I have completed my <b>12th standard</b> from <b>Sri Guru Harkrishan Sr. Sec Public
+                                School</b>,
+                            Chandigarh in 2022. My percentage was <b>86.8%</b>.<br><br>
+                            I have completed my <b>10th standard</b> from <b>Manav Mangal Smart School</b>, Mohali in
+                            2020. My
+                            percentage was <b>89.0%</b>. <br><br>
+                            I have also been certified as a <b>Python Developer</b> by NPTEL and Kaggle.
+                        </p>
+                    </div>
+                    <div class="educationwidth">
+                        <img src="portfolioassests/educationside.png" class="educationimage">
+                    </div>
+    </section>
+    <section id="skillspage">
+        <div class="skillswidth">
+            <img src="portfolioassests/skillsside.png" class="skillsimage">
+        </div>
+        <div class="skillscontent">
+            <h1 class="skills_main">Skills</h1><br><br><br>
+            <div class="social1">
+                <div class="skill1">
+                    Python
+                </div>
+                <div class="skill2">
+                    Java
+                </div>
+                <div class="skill3">
+                    C
+                </div>
+            </div>
+            <br>
+            <div class="social1">
+                <div class="skill4">
+                    C++
+                </div>
+                <div class="skill5">
+                    HTML
+                </div>
+                <div class="skill6">
+                    CSS
+                </div>
+            </div>
+            <br>
+            <div class="social1">
+                <div class="skill7">
+                    Javascript
+                </div>
+                <div class="skill1">
+                    ReactJS
+                </div>
+                <div class="skill2">
+                    MongoDB
+                </div>
+            </div>
+            <br>
+            <div class="social1">
+                <div class="skill4">
+                    Object Oriented Programming
+                </div>
+                <div class="skill7">
+                    Flutter
+                </div>
+                <div class="skill4">
+                    Matlab
+                </div>
+            </div>
+            <br>
+            <div class="social1">
+                <div class="skill5">
+                    Discord.js
+                </div>
+                <div class="skill6">
+                    Java
+                </div>
+                <div class="skill1">
+                    App Development
+                </div>
+            </div>
+            <br>
+            <div class="social1">
+                <div class="skill3">
+                    Web Development
+                </div>
+                <div class="skill5">
+                    Testing & Debugging
+                </div>
+                <div class="skill4">
+                    Github
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section id="projectspage">
+        <div class="projectscontent">
+            <h1 class="projects_main">Projects</h1><br><br><br>
+            <ul>
+                <li class="projects_option"><b>Discord Bot -</b> <br><span class="small">Created a multipurpose discord
+                        bot using discord.js v12 which can do various tasks like moderation, automod, fun games, server
+                        economy, server levelling and much more.</span></li>
+                <li class="projects_option"><b>Xylophone App -</b> <br><span class="small">Created a xylophone app using
+                        flutter which can run on both android and ios. This app can help you play various xylophone
+                        tunes on your mobile.</span></li>
+                <li class="projects_option"><b>Quizzer App -</b> <br><span class="small">Created a quizzer app using
+                        flutter which can help you add questions and options for any quiz that you want to conduct. This
+                        app can run on both android and ios.</span></li>
+            </ul>
+        </div>
+        <div class="projectswidth">
+            <img src="portfolioassests/projectsside.png" class="projectsimage">
+        </div>
+    </section>
+    <section id="contactpage">
+        <div class="widthdiv">
+            <img src="portfolioassests/contactside.png" class="contactimage">
+        </div>
+        <div class="contactcontent">
+            <h1>Contact Me</h1>
+            <br><br><br>
+            <div class="social">
+                <div class="email">
+                    <a target="_blank" href="mailto:neerajmodgil85@gmail.com">&#x2709; Email</a>
+                </div>
+                <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/_neeraj.modgil_?igsh=MXRmdWU0czBxNjlz"
+                        class="fa fa-instagram"> _neeraj.modgil_</a>
+                </div>
+                <div class="linkedin">
+                    <a target="_blank"
+                        href="https://www.linkedin.com/in/neeraj-modgil-5b3338257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        class="fa fa-linkedin"> Neeraj Modgil</a>
+                </div>
+            </div>
+            <br><br><br>
+            <form class="mainform" id="mainforms"
+                action="https://script.google.com/macros/s/AKfycbwuqtZpskxpE3y63k-mYDako-INyla_gyN57s-9KY7NAJB-eGIRSDtr9i4KATkB-kRaOg/exec"
+                method='post'>
+                Name <span class="req">*</span> <br>
+                <input type="text" class="contactform" placeholder="Enter your name" name="name" required> <br>
+                Email <span class="req">*</span> <br>
+                <input type="email" class="contactform" placeholder="Enter your email" name="email" required> <br>
+                Message <span class="req">*</span> <br>
+                <input type="text" class="contactforml" placeholder="Feel free to write anything." name="message"
+                    autocomplete="off" rows="7" required> <br>
+                <input type="submit" class="contactforms" id="sumb" name="Submit" value="Send"
+                    onclick="return check(event)"> <br>
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy;2024. All rights reserved.
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
